@@ -1,0 +1,9 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/haskell:2": {
+      "ghcVersion": "9.2.8",
+      "installStack": false
+    }
+  }
+}
