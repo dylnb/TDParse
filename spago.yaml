@@ -1,0 +1,37 @@
+package:
+  dependencies:
+  - aff
+  - arrays
+  - console
+  - control
+  - debug
+  - effect
+  - either
+  - enums
+  - exceptions
+  - flame
+  - foldable-traversable
+  - lists
+  - maybe
+  - ordered-collections
+  - parsing
+  - prelude
+  - prettyprinter
+  - strings
+  - stringutils
+  - transformers
+  - tuples
+  name: parsesite
+workspace:
+  extra_packages:
+    prettyprinter:
+      dependencies:
+      - ansi
+      - prelude
+      - random
+      - strings
+      - unfoldable
+      git: https://github.com/jmackie/purescript-prettyprinter.git
+      ref: master
+  package_set:
+    registry: 62.1.0
